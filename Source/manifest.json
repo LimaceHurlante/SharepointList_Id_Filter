@@ -1,0 +1,25 @@
+{
+  "default_locale": "en",               
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__"  ,
+  "manifest_version": 3,
+  "version": "1.0",
+  "icons": {
+    "16":  "LOGOE1C.png",
+    "48":  "LOGOE1C.png",
+    "128": "LOGOE1C.png"
+  },
+  "action": {
+    "default_title": "Filtrer par ID",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16":  "LOGOE1C.png",
+      "48":  "LOGOE1C.png",
+      "128": "LOGOE1C.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}

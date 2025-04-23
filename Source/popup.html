@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>__MSG_popupTitle__</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        background-color: #f3f3f3;
+        width: 240px;
+        min-height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 10px;
+      }
+      label {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        display: block;
+      }
+      input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        background-color: #0078d7;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #005a9e;
+      }
+      footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 10px;
+        padding: 0 10px 5px 10px;
+      }
+      footer a {
+        text-decoration: none;
+        color: #0078d7;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+      footer img {
+        max-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <label for="idInput"></label>
+      <input type="number" id="idInput" placeholder="Entrez l'ID">
+      <button id="applyBtn"></button>
+    </div>
+    <footer>
+      <a href="https://www.en1clic.com" target="_blank">
+        <img src="LOGOE1C.png" alt="Logo de En 1 Clic">
+      </a>
+      <a href="https://www.linkedin.com/in/zacharie-cortes-b3b87517/" target="_blank">
+        @ZacharieCortes
+      </a>
+    </footer>
+    <script src="popup.js"></script>
+  </body>
+</html>
