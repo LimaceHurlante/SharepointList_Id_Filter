@@ -1,0 +1,7 @@
+{
+    "extName":       { "message": "Filtre ID SharePoint" },
+    "extDesc":       { "message": "Filtrer les listes SharePoint par ID" },
+    "popupTitle":    { "message": "Filtrer par ID" },
+    "labelId":       { "message": "Filtrer avec l'ID :" },
+    "btnOk":         { "message": "OK" }
+}
