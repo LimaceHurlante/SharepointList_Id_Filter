@@ -1,7 +1,13 @@
 {
-    "extName":       { "message": "Filtre ID SharePoint" },
-    "extDesc":       { "message": "Filtrer les listes SharePoint par ID" },
-    "popupTitle":    { "message": "Filtrer par ID" },
-    "labelId":       { "message": "Filtrer avec l'ID :" },
-    "btnOk":         { "message": "OK" }
+    "extName":      { "message": "Filtre rapide SharePoint" },
+    "extDesc":      { "message": "Filtrer rapidement les listes SharePoint par colonne et valeur" },
+    "popupTitle":   { "message": "Filtrer par colonne" },
+    "labelId":      { "message": "Valeur de filtre :" },
+    "btnOk":        { "message": "Filtrer" },
+
+    "ph_ID":        { "message": "Entrez l'ID" },
+    "ph_Number":    { "message": "Entrez une valeur numérique" },
+    "ph_Text":      { "message": "Entrez du texte" },
+    "ph_Boolean":   { "message": "true ou false" },
+    "ph_Default":   { "message": "Entrez une valeur" }
 }
